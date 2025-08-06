@@ -1,0 +1,81 @@
+/* Container */
+.education-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Form */
+  .education-form {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    gap: 12px;
+  }
+  
+  /* Labels */
+  .education-form label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 3px;
+    color: #333;
+  }
+  
+  /* Input Fields */
+  .education-form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 14px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .education-form input:focus {
+    border-color: #1890ff;
+    box-shadow: 0 0 5px rgba(24, 144, 255, 0.5);
+    outline: none;
+  }
+  
+  /* Select Dropdown */
+  .education-select {
+    width: 100% !important;
+  }
+  
+  .education-select .ant-select-selector {
+    height: 38px !important;
+    display: flex;
+    align-items: center;
+    border-radius: 5px !important;
+  }
+  
+  /* Error Highlight */
+  .input-error,
+  .select-error {
+    border-color: red !important;
+    box-shadow: 0 0 5px red !important;
+  }
+  input {
+    text-align: center;
+  }
+  
+  /* Button */
+  .education-next-btn {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #1890ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 100%;
+    transition: background-color 0.3s;
+  }
+  
+  .education-next-btn:hover {
+    background-color: #40a9ff;
+  }
+  

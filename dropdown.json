@@ -1,0 +1,74 @@
+{
+  "data": {
+    "techSkills": [
+      "Java", "Python", "JavaScript", "SQL",
+      "HTML", "CSS", "React.js", "Java Spring Boot",
+      "Servlets & JSP", "Node.js", "Express.js",
+      "MySQL", "PostgreSQL", "Git & GitHub",
+      "Docker", "CI/CD (Jenkins, GitHub Actions)",
+      "REST API Development", "JSON & Axios (API Integration)",
+      "Tomcat Server", "Postman (API Testing)"
+    ],
+    "locations": [
+      "Amsterdam", "Austin", "Bangalore", "Berlin", "Boston",
+      "Chennai", "Chicago", "Dallas", "Delhi", "Denver",
+      "Dubai", "Houston", "Hyderabad", "Kolkata", "London",
+      "Los Angeles", "Melbourne", "Miami", "Mumbai", "New York",
+      "Paris", "Pune", "San Francisco", "Seattle", "Singapore",
+      "Sydney", "Tokyo", "Toronto", "Vancouver"
+    ],
+    "noticePeriods": [
+      "Immediate", "0 to 15 days", "30 to 60 days", "60 to 90 days"
+    ]
+  },
+  "education": {
+    "degreeOptions": {
+      "BTech": [
+        "Computer Science & Engineering",
+        "Mechanical Engineering",
+        "Civil Engineering",
+        "Electronics & Communication"
+      ],
+      "BE": [
+        "Computer Science & Engineering",
+        "Mechanical Engineering",
+        "Civil Engineering",
+        "Electronics & Communication"
+      ],
+      "BSc": [
+        "Physics", "Mathematics", "Computer Science", "Biotechnology"
+      ],
+      "MBA": [
+        "Marketing", "Finance", "HR Management", "Business Analytics"
+      ],
+      "MTech": [
+        "Artificial Intelligence", "Data Science", "Cybersecurity"
+      ],
+      "PhD": [
+        "Computer Science", "Mathematics", "Management Studies", "Environmental Science"
+      ]
+    },
+    "certificateOptions": [
+      "Java Certification", "AWS Certified Developer",
+      "Full Stack Web Development", "Data Science Certification",
+      "Project Management Professional (PMP)", "Certified Ethical Hacker (CEH)"
+    ],
+    "degrees": ["BTech", "BE", "MTech", "MCA", "MBA", "PhD"]
+  },
+  "PersonalInformation": {
+    "districts": [
+      "New Delhi", "Lucknow", "Kanpur", "Varanasi", "Agra", "Jaipur", "Udaipur", "Jodhpur",
+      "Chennai", "Coimbatore", "Madurai", "Salem", "Tiruchirappalli", "Bengaluru Urban",
+      "Mysuru", "Mangaluru", "Visakhapatnam", "Vijayawada", "Guntur", "Tirupati",
+      "Thiruvananthapuram", "Kochi", "Kozhikode", "Mumbai", "Pune", "Nagpur", "Nashik",
+      "Ahmedabad", "Surat", "Vadodara", "Rajkot", "Kolkata", "Howrah", "Darjeeling",
+      "Siliguri", "Bhubaneswar", "Cuttack", "Raipur", "Bilaspur", "Bhopal", "Indore",
+      "Gwalior", "Jabalpur"
+    ],
+    "nationalities": [
+      "Indian", "American", "British", "Canadian", "Australian",
+      "German", "French", "Chinese", "Japanese", "Russian",
+      "Brazilian", "South African", "Mexican", "Italian", "Spanish"
+    ]
+  }
+}

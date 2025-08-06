@@ -1,0 +1,74 @@
+/* Preview container styling */
+.preview-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  /* Style for question-answer layout */
+  .preview-details {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 15px;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  
+  .preview-details strong {
+    text-align: right;
+    padding-right: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .preview-details p {
+    margin: 0;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Work Experience and other lists */
+  ul {
+    padding-left: 20px;
+  }
+  
+  /* Buttons styling */
+  .preview-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .back-button, .submit-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .back-button {
+    background: #ddd;
+    color: #333;
+  }
+  
+  .submit-button {
+    background: #4CAF50;
+    color: white;
+  }
+  
+  .back-button:hover {
+    background: #bbb;
+  }
+  
+  .submit-button:hover {
+    background: #45a049;
+  }
+  

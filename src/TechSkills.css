@@ -1,0 +1,105 @@
+/* Container */
+.techskills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Form Elements */
+  .techskills-form {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    gap: 12px;
+  }
+  
+  /* Labels */
+  .techskills-form label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 3px;
+    color: #333;
+  }
+  
+  /* Select & Input Fields */
+  .techskills-form select,
+  .techskills-form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 14px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .techskills-form input:focus,
+  .techskills-form select:focus {
+    border-color: #1890ff;
+    box-shadow: 0 0 5px rgba(24, 144, 255, 0.5);
+    outline: none;
+  }
+  
+  /* Select Dropdown */
+  .techskills-select {
+    width: 100% !important;
+  }
+  
+  .techskills-select .ant-select-selector {
+    height: 38px !important;
+    display: flex;
+    align-items: center;
+    border-radius: 5px !important;
+  }
+  
+  /* Error Highlight */
+  .input-error,
+  .select-error {
+    border-color: red !important;
+    box-shadow: 0 0 5px red !important;
+  }
+  
+  .techskills-radio {
+    display: flex;
+    align-items: center;
+}
+
+.techskills-radio input[type="radio"] {
+    margin-right: 10px; /* Space between radio button and label */
+    transform: translateY(1px); /* Slight adjustment for vertical alignment */
+}
+
+  
+  /* File Upload */
+  .techskills-form input[type="file"] {
+    padding: 5px;
+  }
+  
+  /* Buttons */
+  .techskills-btn {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #1890ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 100%;
+    transition: background-color 0.3s;
+  }
+  
+  .techskills-btn:hover {
+    background-color: #40a9ff;
+  }
+  
+  .techskills-back-btn {
+    background-color: #ccc;
+    color: #333;
+  }
+  
+  .techskills-back-btn:hover {
+    background-color: #b3b3b3;
+  }
+  

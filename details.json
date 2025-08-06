@@ -1,0 +1,41 @@
+{
+  "arr": [
+    {
+      "id": "1",
+      "name": "Bala",
+      "mail": "bala11052003@gmail.com",
+      "address": "perungudi, chennai,600096",
+      "number": "8248329138",
+      "imageData": {
+        "name": "Arun Photo.png",
+        "type": "image/png",
+        "url": "blob:http://localhost:3000/8d85edf2-bef9-458d-ba6d-2b29660e557b"
+      },
+      "workExperience": [],
+      "university": "GCES",
+      "degree": "BTech",
+      "department": "Civil Engineering",
+      "passedOutYear": "2024",
+      "certificates": [
+        "Java Certification"
+      ],
+      "skills": [
+        "Java",
+        "React.js"
+      ],
+      "location": "Chennai",
+      "expectedSalary": "4",
+      "openToRemote": "Yes",
+      "resumeJson": {
+        "fileName": "Arunkumar-Resume (4).pdf",
+        "fileType": "application/pdf",
+        "fileSize": 126961
+      },
+      "currentCTC": "0",
+      "noticePeriod": "Immediate",
+      "nationalities": "Indian",
+      "nativeDistrict": "Salem",
+      "experience": "0"
+    }
+  ]
+}
